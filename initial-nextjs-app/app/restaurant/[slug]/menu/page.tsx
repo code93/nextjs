@@ -22,7 +22,7 @@ const fetchRestaurantMenu = async (slug: string) => {
 export default async function RestaurantMenu({params}:{params: {slug: string}}){
     
   const menu = await fetchRestaurantMenu(params.slug)
-  console.log({menu})
+  // console.log({menu})
   return(
     <>
     
